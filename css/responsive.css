@@ -1,0 +1,382 @@
+
+@media (min-width: 900px) and (max-width: 1025px){
+header {width: 100%;height: auto;position: relative;top: 0;left: 0;z-index: 100;box-shadow:0 1px 2px rgba(0,0,0,0.3); border-top:solid 7px #0f6fe2;}
+	
+header .rightBox{width:450px;float:right; margin:16px 2% 0 0; text-align:left;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .logoBox{width:174px;height: auto; padding:0px 0; margin:0 0 0 2.5%; font-size:40px; font-weight:900; color:#003366; line-height:30px; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .menuBox{width:100%; height:auto; padding:0; margin:0; border-top:solid 1px #333333;}
+header .menu{width:auto; height:auto; padding:0; margin:0 auto;text-align: center;}
+
+header.smaller {height: auto; }
+header.smaller .header{width:100%; height:auto; padding:0; margin:auto; background:#000; position:relative; z-index:101;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .rightBox{width:450px;float:right; margin:16px 2% 0 0; text-align:left;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .logoBox{width:174px;height: auto; padding:0px 0; margin:0 0 0 2.5%; font-size:40px; font-weight:900; color:#003366; line-height:30px; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .menuBox{width:100%; height:auto; padding:0; margin:0; border-top:solid 1px #333333;}
+header.smaller .menu{width:auto; height:auto; padding:0; margin:0 auto;text-align: center;}
+
+.hEmail{width:auto; height:40px; padding:0px 60px 0 0px; margin:auto 2% auto auto ; background:url(../images/email-icon.png) no-repeat right center; float:left; line-height:22px; color:#fff; text-align:right;}
+.hContact{width:auto; height:40px; padding:0px 0 0 60px; margin:auto; background:url(../images/call-icon.png) no-repeat left center; float:right; line-height:22px; color:#fff;}
+.hBorder{width:1px; height:40px; padding:0; margin:0px 3% auto 3%; border-left:solid 1px #4d4d4d; float:left;}
+.hSmText{font-size:12px;}
+.hBigText{font-size:18px; font-weight:bold;font-family:'Oswald',Arial, Helvetica, sans-serif;}
+
+/*-- Banner Section Css --*/
+.bannerPanel{width:100%; height:auto; position:relative; margin:auto;}
+.banner{width:100%; height:auto; padding:0; margin:0;}
+
+.body{width:100%; height:auto; margin:auto;}
+
+/*-- About Us Panel Css --*/
+.aboutPanel{width:100%; height:auto; padding:0 0 60px 0; margin:0; background:url(../images/about-bg.jpg) no-repeat right center; background-size:100% 100%;}
+.aboutimg{display:none;}
+.aboutcontent{width:100%; height:auto; padding:0; margin:0; float:left;}
+.aboutHeading{width:90%; padding:60px 0 0 0; margin:auto; text-align:left;}
+.aboutHeading h1{color:#fff; text-transform:uppercase;} 
+.aboutText{width:90%; height:auto; padding:30px 0px 30px 0px; margin:auto; font-size:16px; font-weight:400; line-height:32px; color:#fff; text-align:justify;}
+.armbox{width:90%; height:auto; padding:0; margin:5px auto 15px auto; text-align:right;}
+
+/*-- Deals in Panel --*/
+.dealsPanel{width:95%; height:auto; padding:0; margin:50px auto 30px auto;}
+.cLogo{width:23.2%; height:auto; padding:0; margin:0px 0.75% 20px 0.75%; border:solid 1px #f1f1f1; float:left;}
+
+/*-- Short Description --*/
+.sdPanel{width:94%; height:auto; padding:0; margin:auto; background:#eaeaea;}
+.sdimg{width:250px; height:auto; padding:0; margin:0; float:left;}
+.sdContent{width:70%; height:auto; padding:0; margin:0; float:right;} 
+.sdBox{width:23%; height:auto; padding:0; margin:25px 0.5% auto 0.5%; float:left;}
+
+/*-- Footer Panel --*/
+.footerCol1{width:20%; height:auto; padding:0; margin:0 0 0 3%; float:left;}
+.footerCol2{width:28%; height:auto; padding:0; margin:0 0 0 2%; float:left;}
+.footerCol3{width:40%; height:auto; padding:0; margin:0; float:right;}
+
+.paymentPanel{width:88%; height:auto; padding:12px 6%; margin:0; background:#000; border-top:solid 3px #222;}
+.paymentText{width:100%; height:auto; padding:10px 0 15px 0; float:none; font-size:18px; font-weight:bold; color:#fff; text-align:center}
+.paymentLogo{width:100%; height:auto; padding:0 0 10px 0; float:none; text-align:center;}
+
+/*== INNER PAGE ==*/
+/*--Inner Page Heading--*/
+.breadcrumbbox{width:94%; padding:10px 3%; margin:0; background:#f1f1f1; border-bottom:solid 1px #ededed;}
+
+/*-- Inner Page --*/
+.innbody{width:94%; height:auto; padding:0 0; margin:35px auto;color:#333; font-size:15.5px; line-height:27px; text-align:left; font-weight:300;}
+
+.inn-left-panel{display:none;}
+.inn-right-panel{width:100%; height:auto; padding:0; margin:0;  background:#fff; float:none; border-radius:10px;}
+
+/*-- Product Details --*/
+.pdLeftPanel{width:38%; height:auto; padding:7px; margin:10px 0 0 1%; float:left;border-top:solid 3px #f6f6f6; border-left:solid 3px #f6f6f6; border-bottom:solid 3px #d9d9d9; border-right:solid 3px #d9d9d9;}
+.pdRightPanel{width:55%; height:auto; padding:0; margin:10px 1% 0 0; float:right; font-size:14px; line-height:24px;color:#000;}
+
+
+}
+@media (min-width: 769px) and (max-width: 900px){
+header {width: 100%;height: auto;position: relative;top: 0;left: 0;z-index: 100;box-shadow:0 1px 2px rgba(0,0,0,0.3); border-top:solid 7px #0f6fe2;}
+	
+header .rightBox{width:450px;float:right; margin:16px 2% 0 0; text-align:left;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .logoBox{width:174px;height: auto; padding:0px 0; margin:0 0 0 2.5%; font-size:40px; font-weight:900; color:#003366; line-height:30px; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .menuBox{width:100%; height:auto; padding:0; margin:0; border-top:solid 1px #333333;}
+header .menu{width:auto; height:auto; padding:0; margin:0 auto;text-align: center;}
+
+header.smaller {height: auto; }
+header.smaller .header{width:100%; height:auto; padding:0; margin:auto; background:#000; position:relative; z-index:101;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .rightBox{width:450px;float:right; margin:16px 2% 0 0; text-align:left;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .logoBox{width:174px;height: auto; padding:0px 0; margin:0 0 0 2.5%; font-size:40px; font-weight:900; color:#003366; line-height:30px; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .menuBox{width:100%; height:auto; padding:0; margin:0; border-top:solid 1px #333333;}
+header.smaller .menu{width:auto; height:auto; padding:0; margin:0 auto;text-align: center;}
+
+.hEmail{width:auto; height:40px; padding:0px 60px 0 0px; margin:auto 2% auto auto ; background:url(../images/email-icon.png) no-repeat right center; float:left; line-height:22px; color:#fff; text-align:right;}
+.hContact{width:auto; height:40px; padding:0px 0 0 60px; margin:auto; background:url(../images/call-icon.png) no-repeat left center; float:right; line-height:22px; color:#fff;}
+.hBorder{width:1px; height:40px; padding:0; margin:0px 3% auto 3%; border-left:solid 1px #4d4d4d; float:left;}
+.hSmText{font-size:12px;}
+.hBigText{font-size:18px; font-weight:bold;font-family:'Oswald',Arial, Helvetica, sans-serif;}
+
+/*-- Banner Section Css --*/
+.bannerPanel{width:100%; height:auto; position:relative; margin:auto;}
+.banner{width:100%; height:auto; padding:0; margin:0;}
+
+.body{width:100%; height:auto; margin:auto;}
+
+/*-- Product Css --*/
+.productBox .textoverlay{width:100%; height:auto; padding:30px 0 0 0; margin:0px 0 20px 0;color:#fff; font-size:21px; font-weight:bold; text-align:center;position:absolute; z-index:3; top:0px; left:0px;}
+
+/*-- About Us Panel Css --*/
+.aboutPanel{width:100%; height:auto; padding:0 0 60px 0; margin:0; background:url(../images/about-bg.jpg) no-repeat right center; background-size:100% 100%;}
+.aboutimg{display:none;}
+.aboutcontent{width:100%; height:auto; padding:0; margin:0; float:left;}
+.aboutHeading{width:90%; padding:60px 0 0 0; margin:auto; text-align:left;}
+.aboutHeading h1{color:#fff; text-transform:uppercase;} 
+.aboutText{width:90%; height:auto; padding:30px 0px 30px 0px; margin:auto; font-size:16px; font-weight:400; line-height:32px; color:#fff; text-align:justify;}
+.armbox{width:90%; height:auto; padding:0; margin:5px auto 15px auto; text-align:right;}
+
+/*-- Deals in Panel --*/
+.dealsPanel{width:95%; height:auto; padding:0; margin:50px auto 30px auto;}
+.cLogo{width:23.2%; height:auto; padding:0; margin:0px 0.75% 20px 0.75%; border:solid 1px #f1f1f1; float:left;}
+
+/*-- Short Description --*/
+.sdPanel{width:94%; height:auto; padding:35px 0; margin:auto; background:#eaeaea;}
+.sdimg{display:none;}
+.sdContent{width:100%; height:auto; padding:0; margin:0; float:none;} 
+.sdBox{width:23%; height:auto; padding:0; margin:0 0.5%; float:left;}
+
+/*-- Customer Reviews Css --*/
+.crPanel{width:90%; height:auto; padding:50px 2%; margin:auto;}
+
+.crbox{width:94%; height:auto; padding:30px 0 20px 0; margin:0px 3% 0px 3%; background:#f5f5f5; position:relative; border-radius:10px;}
+.crContent{width:94%; height:auto; padding:0 3%; margin:0; float:none; line-height:32px; text-align:left;}
+.crNameBox{width:100%; height:auto; padding:0; margin:0; font-size:18px; font-weight:bold;}
+.crRatingBox{width:60px; height:auto; padding:0; margin:0;}
+.crReviewBox{width:100%; height:auto; padding:0; margin:0; font-size:15px; font-weight:400; font-style:italic;}
+.crImgbox{ display:none;}
+
+/*-- Footer Panel --*/
+.footerCol1{width:20%; height:auto; padding:0; margin:0 0 0 3%; float:left;}
+.footerCol2{width:28%; height:auto; padding:0; margin:0 0 0 2%; float:left;}
+.footerCol3{width:40%; height:auto; padding:0; margin:0; float:right;}
+
+.paymentPanel{width:88%; height:auto; padding:12px 6%; margin:0; background:#000; border-top:solid 3px #222;}
+.paymentText{width:100%; height:auto; padding:10px 0 15px 0; float:none; font-size:18px; font-weight:bold; color:#fff; text-align:center}
+.paymentLogo{width:100%; height:auto; padding:0 0 10px 0; float:none; text-align:center;}
+
+/*== INNER PAGE ==*/
+/*--Inner Page Heading--*/
+.breadcrumbbox{width:94%; padding:10px 3%; margin:0; background:#f1f1f1; border-bottom:solid 1px #ededed;}
+
+/*-- Inner Page --*/
+.innbody{width:94%; height:auto; padding:0 0; margin:35px auto;color:#333; font-size:15.5px; line-height:27px; text-align:left; font-weight:300;}
+
+.inn-left-panel{display:none;}
+.inn-right-panel{width:100%; height:auto; padding:0; margin:0;  background:#fff; float:none; border-radius:10px;}
+
+/*-- Product Details --*/
+.pdLeftPanel{width:94%; height:auto; padding:7px; margin:10px 1% 0 1%; float:none;border-top:solid 3px #f6f6f6; border-left:solid 3px #f6f6f6; border-bottom:solid 3px #d9d9d9; border-right:solid 3px #d9d9d9;}
+.pdRightPanel{width:96.5%; height:auto; padding:0; margin:40px 1% 0 1.5%; float:none; font-size:14px; line-height:24px;color:#000;}
+
+}
+@media (min-width: 481px) and (max-width: 768px){
+header {width: 100%;height: auto;position: relative;top: 0;left: 0;z-index: 100;box-shadow:0 1px 2px rgba(0,0,0,0.3); border-top:solid 7px #0f6fe2;}
+	
+header .rightBox{width:auto;float:right; margin:16px 2% 0 0; text-align:left;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .logoBox{width:174px;height: auto; padding:0px 0; margin:0 0 0 2.5%; font-size:40px; font-weight:900; color:#003366; line-height:30px; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .menuBox{width:100%; height:auto; padding:0; margin:0; border-top:solid 1px #333333;}
+header .menu{width:auto; height:auto; padding:0; margin:0 auto;text-align: center;}
+
+header.smaller {height: auto; }
+header.smaller .header{width:100%; height:auto; padding:0; margin:auto; background:#000; position:relative; z-index:101;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .rightBox{width:auto;float:right; margin:16px 2% 0 0; text-align:left;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .logoBox{width:174px;height: auto; padding:0px 0; margin:0 0 0 2.5%; font-size:40px; font-weight:900; color:#003366; line-height:30px; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .menuBox{width:100%; height:auto; padding:0; margin:0; border-top:solid 1px #333333;}
+header.smaller .menu{width:auto; height:auto; padding:0; margin:0 auto;text-align: center;}
+
+.hEmail{ display:none;}
+.hContact{width:auto; height:40px; padding:0px 0 0 60px; margin:auto; background:url(../images/call-icon.png) no-repeat left center; float:right; line-height:22px; color:#fff;}
+.hBorder{ display:none;}
+.hSmText{font-size:12px;}
+.hBigText{font-size:18px; font-weight:bold;font-family:'Oswald',Arial, Helvetica, sans-serif;}
+
+/*-- Banner Section Css --*/
+.bannerPanel{width:100%; height:auto; position:relative; margin:auto;}
+.banner{width:100%; height:auto; padding:0; margin:0;}
+
+.body{width:100%; height:auto; margin:auto;}
+
+/*-- Product Css --*/
+.productPanel{width:95%; height:auto; padding:55px 2.5% 50px 2.5%; margin:auto;}
+.productBox{width:48%; height:auto; padding:0; margin:0px 1% 25px 1%; float:left; position:relative;}
+.productBox img{filter: grayscale(100%);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.productBox:hover img{filter: grayscale(0%);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.productBox:hover .blackoverlay{background:rgba(0,0,0,0.01);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.productBox .explorenav{ margin:20px auto 10px auto; display:none;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+
+.productImgBox{width:100%; height:auto; padding:0; margin:0;}
+.productBox .blackoverlay{width:100%; height:100%; padding:0; margin:0; background:rgba(0,0,0,0.2); position:absolute; z-index:1; top:0px; left:0px;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.productBox .prodoverlay{width:100%; height:100%; padding:0; margin:0; background:url(images/Dottes.png) no-repeat left center; position:absolute; z-index:2; top:0px; left:0px;}
+
+.productBox .textoverlay{width:100%; height:auto; padding:30px 0 0 0; margin:0px 0 20px 0;color:#fff; font-size:21px; font-weight:bold; text-align:center;position:absolute; z-index:3; top:0px; left:0px;}
+
+/*-- About Us Panel Css --*/
+.aboutPanel{width:100%; height:auto; padding:0 0 60px 0; margin:0; background:url(../images/about-bg.jpg) no-repeat right center; background-size:100% 100%;}
+.aboutimg{display:none;}
+.aboutcontent{width:100%; height:auto; padding:0; margin:0; float:left;}
+.aboutHeading{width:90%; padding:60px 0 0 0; margin:auto; text-align:left;}
+.aboutHeading h1{color:#fff; text-transform:uppercase;} 
+.aboutText{width:90%; height:auto; padding:30px 0px 30px 0px; margin:auto; font-size:16px; font-weight:400; line-height:32px; color:#fff; text-align:justify;}
+.armbox{width:90%; height:auto; padding:0; margin:5px auto 15px auto; text-align:right;}
+
+/*-- Deals in Panel --*/
+.dealsPanel{width:95%; height:auto; padding:0; margin:50px auto 30px auto;}
+.cLogo{width:45%; height:auto; padding:0; margin:0px 2% 20px 2%; border:solid 1px #f1f1f1; float:left;}
+
+/*-- Short Description --*/
+.sdPanel{width:94%; height:auto; padding:35px 0; margin:auto; background:#eaeaea;}
+.sdimg{display:none;}
+.sdContent{width:100%; height:auto; padding:0; margin:0; float:none;} 
+.sdBox{width:23%; height:auto; padding:0; margin:0 0.5%; float:left;}
+
+/*-- Customer Reviews Css --*/
+.crPanel{width:90%; height:auto; padding:50px 2%; margin:auto;}
+
+.crbox{width:94%; height:auto; padding:30px 0 20px 0; margin:0px 3% 0px 3%; background:#f5f5f5; position:relative; border-radius:10px;}
+.crContent{width:94%; height:auto; padding:0 3%; margin:0; float:none; line-height:32px; text-align:left;}
+.crNameBox{width:100%; height:auto; padding:0; margin:0; font-size:18px; font-weight:bold;}
+.crRatingBox{width:60px; height:auto; padding:0; margin:0;}
+.crReviewBox{width:100%; height:auto; padding:0; margin:0; font-size:15px; font-weight:400; font-style:italic;}
+.crImgbox{ display:none;}
+
+/*-- Footer Panel --*/
+.footerCol1{width:94%; height:auto; padding:0; margin:0px 3%; float:none; clear:both;}
+.navBox{width:100%; height:auto; padding:0; margin:25px 0 0 0; font-size:30px; font-weight:400; color:#fff;}
+div#fNav1 ul { margin:0; padding: 0; list-style: none; }
+div#fNav1 ul li { margin: 0; padding: 1px 0px; list-style: none; display:block; } 
+div#fNav1 ul a:link, div#fNav1 ul a:active, div#fNav1 ul a:visited {width:50%; height:auto; margin: 0; padding:4px 0; display:block; text-decoration: none; color: #fff; font-size:14px;text-align:left; text-transform:capitalize; float:left;} 
+div#fNav1 ul a:hover{color:#0073ff !important;}
+
+.footerCol2{width:94%; height:auto; padding:25px 0; margin:30px 3%; float:none; clear:both; border-top:dashed 1px #444; border-bottom:dashed 1px #444;}
+div#fNav2 ul { margin:30px 0 10px 0; padding: 0; list-style: none; } 
+div#fNav2 ul li { margin: 0; padding: 1px 0px; list-style: none; } 
+div#fNav2 ul a:link, div#fNav2 ul a:active, div#fNav2 ul a:visited {width:auto; height:auto; margin:0 10px 10px 0; padding:5px 10px; text-decoration: none; color:#999;display:block; font-size:14px;font-weight:400; float:left; border:solid 1px #999; border-radius:3px;} 
+div#fNav2 ul  a:hover {color:#0073ff; border:solid 1px #0073ff;}
+
+.footerCol3{width:94%; height:auto; padding:0; margin:0 3%; float:none; clear:both;}
+
+.paymentPanel{width:88%; height:auto; padding:12px 6%; margin:0; background:#000; border-top:solid 3px #222;}
+.paymentText{width:100%; height:auto; padding:10px 0 15px 0; float:none; font-size:18px; font-weight:bold; color:#fff; text-align:center}
+.paymentLogo{width:100%; height:auto; padding:0 0 10px 0; float:none; text-align:center;}
+
+/*== INNER PAGE ==*/
+/*--Inner Page Heading--*/
+.breadcrumbbox{width:94%; padding:10px 3%; margin:0; background:#f1f1f1; border-bottom:solid 1px #ededed;}
+
+/*-- Inner Page --*/
+.innbody{width:94%; height:auto; padding:0 0; margin:35px auto;color:#333; font-size:15.5px; line-height:27px; text-align:left; font-weight:300;}
+
+.inn-left-panel{display:none;}
+.inn-right-panel{width:100%; height:auto; padding:0; margin:0;  background:#fff; float:none; border-radius:10px;}
+
+/*-- Product Details --*/
+.pdLeftPanel{width:94%; height:auto; padding:7px; margin:10px 1% 0 1%; float:none;border-top:solid 3px #f6f6f6; border-left:solid 3px #f6f6f6; border-bottom:solid 3px #d9d9d9; border-right:solid 3px #d9d9d9;}
+.pdRightPanel{width:96.5%; height:auto; padding:0; margin:40px 1% 0 1.5%; float:none; font-size:14px; line-height:24px;color:#000;}
+
+/*-- Inner Products --*/
+.iproductBox{width:47%; height:auto; padding:0; margin:0 1.5% 20px 1.5%; background:#f5f5f5; float:left;}
+
+}
+@media (min-width: 320px) and (max-width: 480px){
+header {width: 100%;height: auto;position: relative;top: 0;left: 0;z-index: 100;box-shadow:0 1px 2px rgba(0,0,0,0.3); border-top:solid 7px #0f6fe2;}
+	
+header .rightBox{width:auto;float:right; margin:16px 2% 0 0; text-align:left;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .logoBox{width:174px;height: auto; padding:0px 0; margin:0 0 0 2.5%; font-size:40px; font-weight:900; color:#003366; line-height:30px; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header .menuBox{width:100%; height:auto; padding:0; margin:0; border-top:solid 1px #333333;}
+header .menu{width:auto; height:auto; padding:0; margin:0 auto;text-align: center;}
+
+header.smaller {height: auto; }
+header.smaller .header{width:100%; height:auto; padding:0; margin:auto; background:#000; position:relative; z-index:101;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .rightBox{width:auto;float:right; margin:16px 2% 0 0; text-align:left;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .logoBox{width:174px;height: auto; padding:0px 0; margin:0 0 0 2.5%; font-size:40px; font-weight:900; color:#003366; line-height:30px; float:left; -webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+header.smaller .menuBox{width:100%; height:auto; padding:0; margin:0; border-top:solid 1px #333333;}
+header.smaller .menu{width:auto; height:auto; padding:0; margin:0 auto;text-align: center;}
+
+.hEmail{ display:none;}
+.hContact{width:auto; height:40px; padding:0px 0 0 60px; margin:auto; background:url(../images/call-icon.png) no-repeat left center; float:right; line-height:22px; color:#fff;}
+.hBorder{ display:none;}
+.hSmText{font-size:12px;}
+.hBigText{font-size:18px; font-weight:bold;font-family:'Oswald',Arial, Helvetica, sans-serif;}
+
+/*-- Banner Section Css --*/
+.bannerPanel{width:100%; height:auto; position:relative; margin:auto;}
+.banner{width:100%; height:auto; padding:0; margin:0;}
+
+.body{width:100%; height:auto; margin:auto;}
+
+/*-- Product Css --*/
+.productPanel{width:95%; height:auto; padding:55px 2.5% 50px 2.5%; margin:auto;}
+.productBox{width:98%; height:auto; padding:0; margin:0px 1% 25px 1%; float:left; position:relative;}
+.productBox img{filter: grayscale(100%);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.productBox:hover img{filter: grayscale(0%);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.productBox:hover .blackoverlay{background:rgba(0,0,0,0.01);-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.productBox .explorenav{ margin:20px auto 10px auto; display:none;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+
+.productImgBox{width:100%; height:auto; padding:0; margin:0;}
+.productBox .blackoverlay{width:100%; height:100%; padding:0; margin:0; background:rgba(0,0,0,0.2); position:absolute; z-index:1; top:0px; left:0px;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-ms-transition: all 0.3s;-o-transition: all 0.3s;transition: all 0.3s !important;}
+.productBox .prodoverlay{width:100%; height:100%; padding:0; margin:0; background:url(images/Dottes.png) no-repeat left center; position:absolute; z-index:2; top:0px; left:0px;}
+
+.productBox .textoverlay{width:100%; height:auto; padding:30px 0 0 0; margin:50px 0 20px 0;color:#fff; font-size:21px; font-weight:bold; text-align:center;position:absolute; z-index:3; top:0px; left:0px;}
+
+/*-- About Us Panel Css --*/
+.aboutPanel{width:100%; height:auto; padding:0 0 60px 0; margin:0; background:url(../images/about-bg.jpg) no-repeat right center; background-size:100% 100%;}
+.aboutimg{display:none;}
+.aboutcontent{width:100%; height:auto; padding:0; margin:0; float:left;}
+.aboutHeading{width:90%; padding:60px 0 0 0; margin:auto; text-align:left;}
+.aboutHeading h1{color:#fff; text-transform:uppercase;} 
+.aboutText{width:90%; height:auto; padding:30px 0px 30px 0px; margin:auto; font-size:16px; font-weight:400; line-height:32px; color:#fff; text-align:justify;}
+.armbox{width:90%; height:auto; padding:0; margin:5px auto 15px auto; text-align:right;}
+
+/*-- Deals in Panel --*/
+.dealsPanel{width:95%; height:auto; padding:0; margin:50px auto 30px auto;}
+.cLogo{width:45%; height:auto; padding:0; margin:0px 2% 20px 2%; border:solid 1px #f1f1f1; float:left;}
+
+/*-- Short Description --*/
+.sdPanel{width:94%; height:auto; padding:40px 0 10px 0; margin:auto; background:#eaeaea;}
+.sdimg{display:none;}
+.sdContent{width:100%; height:auto; padding:0; margin:0; float:none;} 
+.sdBox{width:48%; height:auto; padding:0; margin:0 1% 30px 1%; float:left;}
+
+/*-- Customer Reviews Css --*/
+.crPanel{width:90%; height:auto; padding:50px 2%; margin:auto;}
+
+.crbox{width:94%; height:auto; padding:30px 0 20px 0; margin:0px 3% 0px 3%; background:#f5f5f5; position:relative; border-radius:10px;}
+.crContent{width:94%; height:auto; padding:0 3%; margin:0; float:none; line-height:32px; text-align:left;}
+.crNameBox{width:100%; height:auto; padding:0; margin:0; font-size:18px; font-weight:bold;}
+.crRatingBox{width:60px; height:auto; padding:0; margin:0;}
+.crReviewBox{width:100%; height:auto; padding:0; margin:0; font-size:15px; font-weight:400; font-style:italic;}
+.crImgbox{ display:none;}
+
+/*-- Footer Panel --*/
+.footerCol1{width:94%; height:auto; padding:0; margin:0px 3%; float:none; clear:both;}
+.navBox{width:100%; height:auto; padding:0; margin:25px 0 0 0; font-size:30px; font-weight:400; color:#fff;}
+div#fNav1 ul { margin:0; padding: 0; list-style: none; }
+div#fNav1 ul li { margin: 0; padding: 1px 0px; list-style: none; display:block; } 
+div#fNav1 ul a:link, div#fNav1 ul a:active, div#fNav1 ul a:visited {width:50%; height:auto; margin: 0; padding:4px 0; display:block; text-decoration: none; color: #fff; font-size:14px;text-align:left; text-transform:capitalize; float:left;} 
+div#fNav1 ul a:hover{color:#0073ff !important;}
+
+.footerCol2{width:94%; height:auto; padding:25px 0; margin:30px 3%; float:none; clear:both; border-top:dashed 1px #444; border-bottom:dashed 1px #444;}
+div#fNav2 ul { margin:30px 0 10px 0; padding: 0; list-style: none; } 
+div#fNav2 ul li { margin: 0; padding: 1px 0px; list-style: none; } 
+div#fNav2 ul a:link, div#fNav2 ul a:active, div#fNav2 ul a:visited {width:auto; height:auto; margin:0 10px 10px 0; padding:5px 10px; text-decoration: none; color:#999;display:block; font-size:14px;font-weight:400; float:left; border:solid 1px #999; border-radius:3px;} 
+div#fNav2 ul  a:hover {color:#0073ff; border:solid 1px #0073ff;}
+
+.footerCol3{width:94%; height:auto; padding:0; margin:0 3%; float:none; clear:both;}
+
+.paymentPanel{width:88%; height:auto; padding:12px 6%; margin:0; background:#000; border-top:solid 3px #222;}
+.paymentText{width:100%; height:auto; padding:10px 0 15px 0; float:none; font-size:18px; font-weight:bold; color:#fff; text-align:center}
+.paymentLogo{width:100%; height:auto; padding:0 0 10px 0; float:none; text-align:center;}
+
+.copyright{width:100%; height:auto; margin:0 0 12px 0; float:none; font-size:13px; text-align:center;}
+.poweredBy{width:100%; height:auto; float:none; text-align:center;}
+
+/*== INNER PAGE ==*/
+/*--Inner Page Heading--*/
+.breadcrumbbox{width:94%; padding:10px 3%; margin:0; background:#f1f1f1; border-bottom:solid 1px #ededed;}
+
+/*-- Inner Page --*/
+.innbody{width:94%; height:auto; padding:0 0; margin:35px auto;color:#333; font-size:15.5px; line-height:27px; text-align:left; font-weight:300;}
+
+.inn-left-panel{display:none;}
+.inn-right-panel{width:100%; height:auto; padding:0; margin:0;  background:#fff; float:none; border-radius:10px;}
+
+/*-- Product Details --*/
+.pdLeftPanel{width:94%; height:auto; padding:7px; margin:10px 1% 0 1%; float:none;border-top:solid 3px #f6f6f6; border-left:solid 3px #f6f6f6; border-bottom:solid 3px #d9d9d9; border-right:solid 3px #d9d9d9;}
+.pdRightPanel{width:96.5%; height:auto; padding:0; margin:40px 1% 0 1.5%; float:none; font-size:14px; line-height:24px;color:#000;}
+
+.inn-right-panel h1{width:92%; height:auto; padding:7px 4%; margin:0 0 22px 0; background:#0073ff; border-bottom:solid 2px #fff;color:#fff;font-size:18px;font-weight:bold;font-family:'Roboto',Arial, Helvetica, sans-serif; border-radius:7px 7px 0 0;}
+
+/*-- Inner Products --*/
+.iproductBox{width:97%; height:auto; padding:0; margin:0 1.5% 20px 1.5%; background:#f5f5f5; float:left;}
+
+.pdinquirypanel{width:95.2%; height:auto; padding:20px 2% 10px 2%; margin:25px auto auto auto; background:#f5f5f5; border:solid 1px #e1e1e1;}
+.pdirow{width:100%; height:auto; padding:0; margin:0;}
+.pdirow1{width:100%; height:auto; padding:0; margin:0; text-align:center;}
+.pdicol1{width:98%; height:auto; padding:0; margin:auto 1% 15px 1%; position:relative; float:left;}
+.pdicol2{width:98%; height:auto; padding:0; margin:auto 1% 15px 1%; position:relative;}
+
+}

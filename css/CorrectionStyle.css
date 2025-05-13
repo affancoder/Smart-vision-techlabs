@@ -1,0 +1,22 @@
+#bannbtn-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+#bookcons-btn {
+  font-size: 1.3rem;
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#bookcons-btn:hover {
+  background-color: #0056b3;
+}
