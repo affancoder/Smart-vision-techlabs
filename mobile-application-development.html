@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <title>Smart Vision Tech Labs</title>
+    <meta name="description" content="Smart Vision Tech Labs" />
+    <meta name="keywords" content="Smart Vision Tech Labs" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=font-family: Poppins;"
+      rel="stylesheet"
+    />
+
+    <!--[if lt IE 9]>
+      <script src="js/respond-1.1.0.min.js"></script>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/html5element.js"></script>
+    <![endif]-->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css"
+    />
+
+    <!-- bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="default.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/CorrectionStyle.css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.min.js"></script>
+
+    <!-- Header -->
+    <script src="js/classie.js"></script>
+    <script>
+      function init() {
+        window.addEventListener("scroll", function (e) {
+          var distanceY =
+              window.pageYOffset || document.documentElement.scrollTop,
+            shrinkOn = 60,
+            header = document.querySelector("header");
+          if (distanceY > shrinkOn) {
+            classie.add(header, "smaller");
+            $(".topRibon").slideUp(200);
+          } else {
+            if (classie.has(header, "smaller")) {
+              classie.remove(header, "smaller");
+              $(".topRibon").slideDown(200);
+            }
+          }
+        });
+      }
+      window.onload = init();
+      //$(window).on('resize',function(){location.reload();});
+    </script>
+    <!--Menu-->
+    <link rel="stylesheet" href="menu/nav-core.css" />
+    <link rel="stylesheet" href="menu/nav-layout.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+    <!--Gallery Slider-->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="headerbox">
+          <div class="logoBox">
+            <a href="index.html"
+              ><img
+                src="images/logo.png"
+                class="fullimage"
+                alt="Smart Vision Tech Labs"
+            /></a>
+          </div>
+          <div class="rightBox">
+            <div class="menuBox">
+              <div class="menu">
+                <a href="#" class="nav-button">Menu</a>
+                <nav class="nav">
+                  <ul>
+                    <li><a href="company.html">Company</a></li>
+                    <li class="nav-submenu">
+                      <a href="#">Technology Solutions</a>
+                      <ul>
+                        <li>
+                          <a href="website-design-and-development.html"
+                            >Website Design & Development</a
+                          >
+                        </li>
+                        <li>
+                          <a href="mobile-application-development.html"
+                            >Mobile Application Development</a
+                          >
+                        </li>
+                        <li>
+                          <a href="e-commerce-development.html"
+                            >E-commerce Platform Development</a
+                          >
+                        </li>
+                        <li>
+                          <a href="it-support-maintenance-services.html"
+                            >IT/Server Support & Maintenance Services</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-submenu">
+                      <a href="#">Digital Marketing Solutions</a>
+                      <ul>
+                        <li>
+                          <a href="seo.html"
+                            >Seo (Search Engine Optimization)</a
+                          >
+                        </li>
+                        <li>
+                          <a href="smo.html">Smo (Social Media Optimization)</a>
+                        </li>
+                        <li><a href="ppc.html">PPC (Pay Per Click)</a></li>
+                        <li>
+                          <a href="content-writning.html">Content Writing</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="our-work.html">Our Work</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+
+              <div class="clr"></div>
+            </div>
+
+            <div class="contactBox">
+              <a href="#"><div class="contactno1">+91 63944 12494</div></a>
+              <a href="#"><div class="contactno2">+91 63944 12494</div></a>
+            </div>
+            <div class="clr"></div>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="bannerPanel">
+        <div class="banner">
+          <img src="images/mobileapp-banner.jpg" class="fullimage" alt="" />
+          <!-- <div class="bannbtn-box"><a href="#" class="bookcons-btn">Book a Free Consultation</a></div> -->
+          <div class="talktous-box">
+            <a href="#" class="ttu-btn"
+              ><i class="fa fa-phone"></i> Talk to us</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <div id="bannbtn-box">
+      <a
+        href="https://demo.smartvisiontechlabs.com/company.html#"
+        id="bookcons-btn"
+        >Book a Free Consultation</a
+      >
+    </div>
+
+    <div class="inner-page-body">
+      <section>
+        <div class="ipsec-s01">
+          <div class="container">
+            <div>
+              <div class="leftpanel">
+                <div class="textbox">
+                  <div class="title">
+                    <h1>
+                      Transform Your Ideas into Engaging Mobile Apps with
+                      SmartVision TechLabs
+                    </h1>
+                  </div>
+                  <p>
+                    In today’s mobile-driven world, having a functional and
+                    engaging mobile app is crucial for reaching your audience
+                    and growing your business. A mobile app offers a direct
+                    connection with your customers, providing convenience,
+                    accessibility, and a personalized experience. Whether you
+                    need a customer-facing app or a complex business solution,
+                    we are here to turn your ideas into a fully functional,
+                    user-friendly app.
+                  </p>
+                  <p>
+                    At SmartVision TechLabs, we specialize in designing and
+                    developing custom mobile apps for businesses of all sizes.
+                    Our team creates innovative solutions that are tailored to
+                    meet your unique needs, ensuring seamless user experiences
+                    and top-notch performance.
+                  </p>
+                </div>
+              </div>
+              <div class="rightpanel">
+                <img src="images/mob-img.png" class="fullimage" alt="" />
+              </div>
+              <div class="clr"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="ipsec-s02">
+          <div class="col-01">
+            <img src="images/mob-app-1.jpg" class="fullimage" alt="" />
+          </div>
+          <div class="col-02">
+            <div class="title"><h2>Why Choose Us</h2></div>
+            <div class="textbox">
+              <p>
+                At SmartVision TechLabs, we focus on creating apps that are not
+                only visually stunning but also highly functional. We are
+                committed to building scalable and reliable apps that support
+                your business’s growth. Our expert developers ensure your app
+                performs smoothly across different devices and operating
+                systems, providing your users with the best experience possible.
+              </p>
+            </div>
+            <div class="text-1">We Provide:</div>
+            <div class="text-2">Custom Mobile App Development</div>
+            <div class="text-3">
+              Tailored solutions to meet your business needs.
+            </div>
+            <div class="text-2">Cross-Platform Compatibility</div>
+            <div class="text-3">
+              We develop apps for iOS, Android, and more, ensuring a wide user
+              reach.
+            </div>
+            <div class="text-2">User-Centered Design</div>
+            <div class="text-3">
+              Our team focuses on creating intuitive and engaging user
+              interfaces that your customers will love.
+            </div>
+          </div>
+          <div class="clr"></div>
+        </div>
+      </section>
+      <section>
+        <div class="ipsec-s03">
+          <div class="title">
+            <h1>Our Tech Stack for Mobile App Development</h1>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 colm-25">
+                <div class="tilebox">
+                  <div class="title"><h3>Frontend Development</h3></div>
+                  <div class="icon-box">
+                    <img src="images/react-icon.png" />
+                    <img src="images/flutter-icon.png" />
+                    <img src="images/android-icon.png" />
+                    <img src="images/sopify-icon.png" />
+                    <img src="images/nodejs-icon.png" />
+                  </div>
+                  <div class="text-box">
+                    We use cutting-edge technologies like React Native and
+                    Flutter to build high-performance apps with smooth user
+                    experiences.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 colm-25">
+                <div class="tilebox">
+                  <div class="title"><h3>Backend Development</h3></div>
+                  <div class="icon-box">
+                    <img src="images/nodejs-icon.png" />
+                    <img src="images/laravel-icon.png" />
+                    <img src="images/python-icon.png" />
+                  </div>
+                  <div class="text-box">
+                    For backend services, we rely on powerful and secure
+                    frameworks like Node.js, Laravel, and Python, ensuring your
+                    app is fast, reliable, and scalable.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 colm-25">
+                <div class="tilebox">
+                  <div class="title"><h3>Databases</h3></div>
+                  <div class="icon-box">
+                    <img src="images/mysql-icon.png" />
+                    <img src="images/mangodb-icon.png" />
+                    <img src="images/fiverbase-icon.png" />
+                  </div>
+                  <div class="text-box">
+                    We utilize robust databases like MySQL, MongoDB, and
+                    Firebase to store and manage your data efficiently.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 colm-25">
+                <div class="tilebox">
+                  <div class="title"><h3>Cloud Services</h3></div>
+                  <div class="icon-box">
+                    <img src="images/aws-icon.png" />
+                    <img src="images/googlecloud-icon.png" />
+                    <img src="images/azure-icon.png" />
+                  </div>
+                  <div class="text-box">
+                    We integrate cloud services such as AWS, Google Cloud, and
+                    Microsoft Azure for secure, scalable storage and app
+                    management.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 colm-25">
+                <div class="tilebox">
+                  <div class="title"><h3>UI/UX Design</h3></div>
+                  <div class="icon-box">
+                    <img src="images/figma-icon.png" />
+                    <img src="images/xd-icon.png" />
+                  </div>
+                  <div class="text-box">
+                    Our design team uses tools like Figma and Adobe XD to create
+                    user-friendly and aesthetically pleasing interfaces.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="ipsec-s04">
+          <div class="title"><h2>Why are We Trusted by Our Clients</h2></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="tbc-row">
+                  <div class="icon-box">
+                    <img src="images/check.png" class="fullimage" alt="" />
+                  </div>
+                  <div class="text-box">
+                    <div class="title">Proven Success Rate</div>
+                    <div class="text">
+                      We have a 95% success rate in delivering projects on time
+                      and within budget.
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tbc-row">
+                  <div class="icon-box">
+                    <img src="images/time.png" class="fullimage" alt="" />
+                  </div>
+                  <div class="text-box">
+                    <div class="title">On-Time Delivery</div>
+                    <div class="text">
+                      We adhere to strict timelines to make sure your app is
+                      delivered when you need it, without compromising quality.
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tbc-row">
+                  <div class="icon-box">
+                    <img src="images/success.png" class="fullimage" alt="" />
+                  </div>
+                  <div class="text-box">
+                    <div class="title">Transparent Communication</div>
+                    <div class="text">
+                      We keep you informed throughout the development process,
+                      so you’re always in the loop.
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tbc-row">
+                  <div class="icon-box">
+                    <img src="images/talk.png" class="fullimage" alt="" />
+                  </div>
+                  <div class="text-box">
+                    <div class="title">Ongoing Support</div>
+                    <div class="text">
+                      Our work doesn’t stop once the app is launched. We offer
+                      continued support to keep your app updated and running
+                      smoothly.
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tbc-row">
+                  <div class="icon-box">
+                    <img src="images/cost.png" class="fullimage" alt="" />
+                  </div>
+                  <div class="text-box">
+                    <div class="title">Cost-Effective Solutions</div>
+                    <div class="text">
+                      Our services are competitively priced without sacrificing
+                      quality, making mobile apps affordable for businesses of
+                      all sizes.
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tbc-row">
+                  <div class="icon-box">
+                    <img src="images/24.png" class="fullimage" alt="" />
+                  </div>
+                  <div class="text-box">
+                    <div class="title">24/7 Support</div>
+                    <div class="text">
+                      Our dedication does not end with project completion. We
+                      provide ongoing support and maintenance to keep your app
+                      working and up to date.
+                    </div>
+                  </div>
+                  <div class="clr"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="ipsec-s05">
+          <div class="title">
+            <h2>Industries We Serve</h2>
+            <div class="smtext">
+              We cater to a wide range of industries, including:
+            </div>
+          </div>
+          <div class="container">
+            <div class="ind-tile">
+              <div class="icon-box">
+                <img src="images/ecommerce.png" class="fullimage" alt="" />
+              </div>
+              <div class="title">Retail & E-commerce</div>
+            </div>
+            <div class="ind-tile">
+              <div class="icon-box">
+                <img src="images/education.png" class="fullimage" alt="" />
+              </div>
+              <div class="title">education</div>
+            </div>
+            <div class="ind-tile">
+              <div class="icon-box">
+                <img src="images/Entertainment.png" class="fullimage" alt="" />
+              </div>
+              <div class="title">Entertainment</div>
+            </div>
+            <div class="ind-tile">
+              <div class="icon-box">
+                <img src="images/agriculture.png" class="fullimage" alt="" />
+              </div>
+              <div class="title">Agriculture</div>
+            </div>
+            <div class="ind-tile">
+              <div class="icon-box">
+                <img src="images/health.png" class="fullimage" alt="" />
+              </div>
+              <div class="title">Healthcare</div>
+            </div>
+            <div class="ind-tile">
+              <div class="icon-box">
+                <img src="images/food.png" class="fullimage" alt="" />
+              </div>
+              <div class="title">Fitness & Wellness</div>
+            </div>
+            <div class="ind-tile">
+              <div class="icon-box">
+                <img src="images/logistic.png" class="fullimage" alt="" />
+              </div>
+              <div class="title">Logistic and Travel</div>
+            </div>
+            <div class="ind-tile">
+              <div class="icon-box">
+                <img src="images/factory.png" class="fullimage" alt="" />
+              </div>
+              <div class="title">Manufacturing</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="mobapp-slider">
+          <div class="container11">
+            <div class="title">
+              <h2>Mobile App</h2>
+              <div class="smtext">
+                Powerful Mobile Apps Designed for Success
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <ul id="flexiselDemo2">
+                  <li>
+                    <div class="sliderbox">
+                      <div
+                        class="slidbox"
+                        style="background: #d3e5ff; border: solid 0px #e6f0ff"
+                      >
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="detailsbox">
+                              <div class="logobox">
+                                <img src="images/zoodles-logo.png" />
+                              </div>
+                              <div class="title">Zoodles</div>
+                              <div class="title1">
+                                Zoodles – Smart & Seamless Food Delivery
+                              </div>
+                              <div class="textbox">
+                                The “Murder Case Game” is a type of game in
+                                which participants find themselves in
+                                detectives’ shoes working on real-life unsolved
+                                murder cases. This game combines the elements of
+                                mission, packed with a rich plot and nontrivial
+                                tasks that even cause goose pimples while
+                                opening a piece of gear. Business Problem
+                              </div>
+                              <div class="technologybox">
+                                <div class="techbox">Android</div>
+                                <div class="techbox">Java</div>
+                              </div>
+                              <div class="appstore-logo-box">
+                                <img
+                                  src="images/app-stor-logo.png"
+                                  alt="App Store"
+                                />
+                                <img
+                                  src="images/google-play-logo.png"
+                                  alt="App Store"
+                                />
+                              </div>
+                            </div>
+                            <div class="imgbox">
+                              <img
+                                class="card-img-top"
+                                src="images/mobile-app-img.png"
+                                class="fullimage"
+                                alt="murder case game"
+                                title="Captivating Unsolved Murder Case Game App"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="sliderbox">
+                      <div
+                        class="slidbox"
+                        style="background: #d3e5ff; border: solid 0px #e6f0ff"
+                      >
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="detailsbox">
+                              <div class="logobox">
+                                <img src="images/zoodles-logo.png" />
+                              </div>
+                              <div class="title">Zoodles</div>
+                              <div class="title1">
+                                Zoodles – Smart & Seamless Food Delivery
+                              </div>
+                              <div class="textbox">
+                                The “Murder Case Game” is a type of game in
+                                which participants find themselves in
+                                detectives’ shoes working on real-life unsolved
+                                murder cases. This game combines the elements of
+                                mission, packed with a rich plot and nontrivial
+                                tasks that even cause goose pimples while
+                                opening a piece of gear. Business Problem
+                              </div>
+                              <div class="technologybox">
+                                <div class="techbox">Android</div>
+                                <div class="techbox">Java</div>
+                              </div>
+                              <div class="appstore-logo-box">
+                                <img
+                                  src="images/app-stor-logo.png"
+                                  alt="App Store"
+                                />
+                                <img
+                                  src="images/google-play-logo.png"
+                                  alt="App Store"
+                                />
+                              </div>
+                            </div>
+                            <div class="imgbox">
+                              <img
+                                class="fullimage"
+                                src="images/mobile-app-img.png"
+                                class="fullimage"
+                                alt="murder case game"
+                                title="Captivating Unsolved Murder Case Game App"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+                <div class="clr"></div>
+                <script type="text/javascript">
+                  $(window).load(function () {
+                    $("#flexiselDemo2").flexisel({
+                      visibleItems: 1,
+                      animationSpeed: 1000,
+                      autoPlay: false,
+                      autoPlaySpeed: 3000,
+                      pauseOnHover: true,
+                      enableResponsiveBreakpoints: true,
+                      responsiveBreakpoints: {
+                        portrait: {
+                          changePoint: 480,
+                          visibleItems: 1,
+                        },
+                        landscape: {
+                          changePoint: 640,
+                          visibleItems: 1,
+                        },
+                        tablet: {
+                          changePoint: 768,
+                          visibleItems: 1,
+                        },
+                        desktop: {
+                          changePoint: 1000,
+                          visibleItems: 1,
+                        },
+                      },
+                    });
+                  });
+                </script>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="ipsec-s07">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="title">
+                  <h2>
+                    Build your Mobile Application today. Get 1 year of Free
+                    support…
+                  </h2>
+                </div>
+                <div class="text-box">
+                  Start your online success with our expert website development
+                  services. As a result of our dedicated ongoing assistance,
+                  your site looks great and performs flawlessly..
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="btnbox">
+                  <a href="#" class="btn01">Request a Quote</a>
+                  <a href="#" class="btn02">Talk To us!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-panel">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="logo-box">
+                <img src="images/Vertical-logo-white.png" alt="" />
+              </div>
+              <div class="text-box">
+                we are passionate about crafting digital experiences that
+                transform businesses and delight users.
+              </div>
+              <div class="sm-box">
+                <a href="#"
+                  ><span class="iconbox"
+                    ><svg
+                      class="e-font-icon-svg e-fab-facebook-f"
+                      fill="#fff"
+                      viewBox="0 0 320 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                      ></path></svg></span
+                ></a>
+                <a href="#"
+                  ><span class="iconbox"
+                    ><svg
+                      class="e-font-icon-svg e-fab-twitter"
+                      fill="#fff"
+                      viewBox="0 0 512 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                      ></path></svg></span
+                ></a>
+                <a href="#"
+                  ><span class="iconbox"
+                    ><svg
+                      class="e-font-icon-svg e-fab-instagram"
+                      fill="#fff"
+                      viewBox="0 0 448 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                      ></path></svg></span
+                ></a>
+                <a href="#"
+                  ><span class="iconbox"
+                    ><svg
+                      class="e-font-icon-svg e-fab-linkedin-in"
+                      fill="#fff"
+                      viewBox="0 0 448 512"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                      ></path></svg></span
+                ></a>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="title">Our Service</div>
+              <div class="fnav">
+                <ul>
+                  <li><a href="#">Website Design & Development</a></li>
+                  <li><a href="#">Mobile Application Development</a></li>
+                  <li><a href="#">SEO Optimization</a></li>
+                  <li>
+                    <a href="#">IT/Server Support & Maintenance Services</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="title">Information</div>
+              <div class="fnav">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Pricing Plan</a></li>
+                  <li><a href="#">Our Work</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="title">Contact Us</div>
+              <div class="tab-box">
+                <div class="tab tab1 active">
+                  <img src="images/india-flag.png" /> India
+                </div>
+                <div class="tab tab2">
+                  <img src="images/usa-flag.png" /> USA
+                </div>
+              </div>
+              <div class="cont-details-box1">
+                <div class="cd-row">
+                  <i class="fa fa-map-marker"></i> 445, 2nd Floor Nainagarh,
+                  Near Shiv Temple, Nagra, Jhansi, UP 284003.
+                </div>
+                <div class="cd-row">
+                  <a href="#"><i class="fa fa-phone"></i> +91 – 7307292241</a>
+                </div>
+                <div class="cd-row">
+                  <a href="#"
+                    ><i class="fa fa-envelope-o"></i>
+                    smartvisiontechlabs@gmail.com</a
+                  >
+                </div>
+              </div>
+              <div class="cont-details-box2">
+                <div class="cd-row">
+                  <i class="fa fa-map-marker"></i> 520W, 139th St, New York
+                  City, NY 10031.
+                </div>
+                <div class="cd-row">
+                  <a href="#"><i class="fa fa-phone"></i> +1 (315) 636-5307</a>
+                </div>
+                <div class="cd-row">
+                  <a href="#"
+                    ><i class="fa fa-envelope-o"></i>
+                    contact@smartvisiontechlabs.com</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="copyright-panel">
+            <div class="row">
+              <div class="col-md-5">
+                © 2024 SmartVision. Designed By SmartVision.
+              </div>
+              <div class="col-md-7">
+                <div class="fnav1">
+                  <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li>&#9679;</li>
+                    <li><a href="#">Terms of use</a></li>
+                    <li>&#9679;</li>
+                    <li><a href="#">Sitemap</a></li>
+                    <li>&#9679;</li>
+                    <li><a href="#">Career</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="get-quote.html"><div class="getquotebtn">Get Quote</div></a>
+
+    <script src="menu/nav.jquery.min.js"></script>
+    <script>
+      $(".nav").nav();
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".tab1").on("click", function (event) {
+          $(".cont-details-box1").show();
+          $(".cont-details-box2").hide();
+          $(".tab1").addClass("active");
+          $(".tab2").removeClass("active");
+        });
+        $(".tab2").on("click", function (event) {
+          $(".cont-details-box1").hide();
+          $(".cont-details-box2").show();
+          $(".tab1").removeClass("active");
+          $(".tab2").addClass("active");
+        });
+      });
+    </script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.js"></script>
+    <script>
+      jQuery(document).ready(function ($) {
+        $(".counter").counterUp({
+          delay: 10,
+          time: 1500,
+        });
+      });
+    </script>
+  </body>
+</html>
